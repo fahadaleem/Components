@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --sectionGaps: 2rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.m-0 {
+  margin: 0;
+}
+.m {
+  margin: 1rem;
+}
+.mt {
+  margin-top: 1rem;
+}
+.mb {
+  margin-bottom: 1rem;
+}
+.ml {
+  margin-left: 1rem;
+}
+.mr {
+  margin-right: 1rem;
+}
+.p-0 {
+  padding: 0;
+}
+.p {
+  padding: 1rem;
+}
+.pt {
+  padding-top: 1rem;
+}
+.pb {
+  padding-bottom: 1rem;
+}
+.pl {
+  padding-left: 1rem;
+}
+.pr {
+  padding-right: 1rem;
+}
+
+.m2 {
+  margin: 2rem;
+}
+.mt2 {
+  margin-top: 2rem;
+}
+.mb2 {
+  margin-bottom: 2rem;
+}
+.ml2 {
+  margin-left: 2rem;
+}
+.mr2 {
+  margin-right: 2rem;
+}
+.p2 {
+  padding: 2rem;
+}
+.pt2 {
+  padding-top: 2rem;
+}
+.pb2 {
+  padding-bottom: 2rem;
+}
+.pl2 {
+  padding-left: 2rem;
+}
+.pr2 {
+  padding-right: 2rem;
+}
+.text-align-center {
+  text-align: center;
+}
+.background-white {
+  background-color: #fff;
+}
+.background-dark {
+  background-color: #333;
+}
+.card-shadow {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.font-weight-100 {
+  font-weight: 100;
+}
+.font-weight-200 {
+  font-weight: 200;
+}
+.font-weight-300 {
+  font-weight: 300;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-800 {
+  font-weight: 800;
+}
+.font-weight-900 {
+  font-weight: 900;
+}
+.text-white {
+  color: #fff;
+}
+.section-gap {
+  margin: var(--sectionGaps) auto;
+}
+.section-gap-bottom {
+  margin-bottom: var(--sectionGaps);
+}
+.section-gap-top {
+  margin-top: var(--sectionGaps);
+}
+.display-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.display-large-none {
+  display: none;
+}
+
+.round-btn {
+  border-radius: 40px;
+  text-align: center;
+  padding: 0.3rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .display-large-none {
+    display: block;
+  }
+  .display-small-none {
+    display: none;
+  }
+}
